@@ -1,0 +1,58 @@
+a {
+	color: #91B493;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 10px;
+}
+
+.logo-wrapper {
+	width: 30%;
+}
+
+.header-logo {
+	width: 300px;
+}
+
+.nav {
+	font-size: 1.2rem;
+}
+
+.nav > ul {
+	display: flex;
+	list-style: none;
+}
+
+.nav > ul > li {
+	margin: 0 10px;
+}
+
+.main-visual {
+	position: relative;
+	height: 70vh;
+}
+
+.main-visual .bg {
+	background-color: #91B493;
+	position: absolute;
+	width: 70%;
+	top: 20px;
+	right: 50px;
+	height: 80%;
+}
+
+.main-visual .image {
+	position: absolute;
+	width: 90%;
+	bottom: 0;
+	left: 0;
+	height: 90%;
+}
+
+.main-visual img {
+	width: 100%;
+	max-width: 1200px;
+}
